@@ -4,7 +4,7 @@ Read this when the app is a board of cards, or the user names Fizzy. Source: [Ke
 
 Fizzy's published menu is a list of places (assigned cards, boards, tags, people, accounts), opened from every page with `J`. Search is a separate key, `K`. The help guide does not describe type-to-filter inside that menu. The jump menu's filter and land behavior is the keycraft door, so a long list of names stays fast.
 
-Start a board app from the tables below. Keep a letter on its Fizzy key when that key is free. Move it when a gate or an existing chord owns it. The letter line and the card name different keys. Chord rules live in SKILL.md.
+Run Decide in SKILL.md first. The tables below are the default keys when that mechanism wins and the key is free. Move a letter when a gate or an existing chord owns it.
 
 ## Every screen
 

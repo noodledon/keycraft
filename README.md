@@ -1,8 +1,6 @@
 # keycraft
 
-A keymap a person can use before they memorize it. One door key opens a jump menu. Each screen has a few single-letter verbs. Key combinations run the actions the app already has, including while typing. Esc closes one layer. `?` shows the letters and the chord card.
-
-The agent instructions are [SKILL.md](SKILL.md). Terms live there.
+A fixed way to decide a keymap for any app. Find the work someone repeats, pick one mechanism for it (a letter, a chord, or a jump menu), then bind a familiar key. The agent instructions are [SKILL.md](SKILL.md).
 
 ## Install
 

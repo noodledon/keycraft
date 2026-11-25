@@ -14,4 +14,6 @@ The engine stays a pure function. This file is the host.
 - Composition is `event.isComposing`. Also treat `keyCode` 229 as composition when the key is Enter. Some keyboards report 229 for ordinary characters, so 229 is not composition on every key.
 - Reset the row's height, border, and background when the app's button style would clip it. Color the menu with the app's surface, text, border, and accent tokens so each theme stays readable.
 - Fetch a large scope when that scope opens. Drop a response that is older than the newest request for that scope.
-- Mount the host on the desktop app surface only. A phone shell that does not use this keymap does not get the listener.
+- Mount the letter host on the desktop app surface only. A phone shell that does not use this keymap does not get the listener.
+- The chord listener sees the same `keydown` after the letter engine passes. Read `code`, `shiftKey`, `altKey`, and `metaKey || ctrlKey`. Call `preventDefault` only for a chord the host runs.
+- The card uses `popover="manual"` and no dialog role, or the letter gate treats it as a dialog and swallows verbs. A pointer down outside the card closes it.

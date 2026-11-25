@@ -4,13 +4,13 @@ Read this when the app is a board of cards, or the user names Fizzy. Source: [Ke
 
 Fizzy's published menu is a list of places (assigned cards, boards, tags, people, accounts), opened from every page with `J`. Search is a separate key, `K`. The help guide does not describe type-to-filter inside that menu. The jump menu's filter and land behavior is the keycraft door, so a long list of names stays fast.
 
-Start a board app from the tables below. Keep a letter on its Fizzy key when that key is free. Move it when a gate or an existing chord owns it. The board cheat and the card cheat name different verbs.
+Start a board app from the tables below. Keep a letter on its Fizzy key when that key is free. Move it when a gate or an existing chord owns it. The letter line and the card name different keys. Chord rules live in SKILL.md.
 
 ## Every screen
 
 | Fizzy action | Key | Term |
 | --- | --- | --- |
-| Fizzy menu | `J` (Fizzy also binds Cmd/Ctrl+`J`) | Door. Add the letter. Leave the chord alone. |
+| Fizzy menu | `J` (Fizzy also binds Cmd/Ctrl+`J`) | Door. Add the letter. Put the chord on the card. |
 | Search | `K` | Search |
 | Home / Assigned to me / Added by me | `1` `2` `3` | Areas |
 | Pin | `P` | Verb, when the app has pins |
@@ -45,7 +45,7 @@ These verbs exist only while a card is open. `M` assigns on both screens. Done i
 | Assign to me | `M` | Assign to me |
 | Mark as Done | `D` | Done |
 | Tag a card | `T` | Tag |
-| Pin or unpin | Shift+`P` | Chord. Leave it. |
-| Watch or stop watching | Shift+`N` | Chord. Leave it. |
-| Golden ticket | Shift+`G` | Chord. Skip unless the app has this noun. |
-| Save / save and create another | Cmd/Ctrl+Enter, Cmd/Ctrl+Shift+Enter | Chords. Leave them. |
+| Pin or unpin | Shift+`P` | Shifted verb, when the app has pins. |
+| Watch or stop watching | Shift+`N` | Shifted verb, when the app has watchers. |
+| Golden ticket | Shift+`G` | Shifted verb. Skip unless the app has this noun. |
+| Save / save and create another | Cmd/Ctrl+Enter, Cmd/Ctrl+Shift+Enter | Chords. Put them on the card when the noun can be saved. |
